@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gpt-jobs"
+version = "0.1.0"
+description = "Automate job applications, interview prep and more with gpt"
+authors = ["Dev Gill <26435947+sdevgill@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "gpt_jobs"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
